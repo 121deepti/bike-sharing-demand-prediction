@@ -11,19 +11,18 @@ The goal of the company Seoul Bike is providing the city with a stable supply of
 You can find the dataset necessary for the analysis on following link : https://archive.ics.uci.edu/ml/datasets/Seoul+Bike+Sharing+Demand#
 
 # Conclusion
-EDA insights:
-Most number of bikes are rented in the Summer season and the lowest in the winter season.
-There is no bike demand on non Functioning day.
-Most number of bikes are rented in the temperature range of 15 degrees to 30 degrees.
-Most number of bikes are rented when there is no snowfall or rainfall.
-Majority of the bikes are rented for a humidity percentage range of 30 to 70.
-The highest number of bike rentals have been done in the 18th hour, i.e 6pm, and lowest in the 4th hour, i.e 4am.
-Most of the bike rentals have been made when there is high visibility.
+**EDA insights**:
+Most number of bikes are rented in the **Summer season** and the **lowest in the winter season**.
+There is **no bike demand** on **non Functioning day**.
+Most number of bikes are rented in the **temperature** range of **15 degrees to 30 degrees**.
+Most number of bikes are **rented** when there is **no snowfall or rainfall**.
+Majority of the bikes are rented for a **humidity percentage** range of **30 to 70**.
+The **highest** number of bike rentals have been done in the **18th hour**, i.e 6pm, and **lowest** in the **4th hour**, i.e 4am.
+Most of the bike rentals have been made when there is **high visibility**.
 
-
-Results from ML models:
-Random Forest Regression is the best performing model with an r2 score of 0.75.
+**Results from ML models:**
+**Random Forest Regression** is the best performing model with an **r2 score** of **0.75**.
 Linear Regression,Lasso Regression(L1 regularization) and Ridge Regression are performing the same with an r2 score of 0.59.
 Actual vs Prediction visualisation is done for all the 4 models with cv technique.
 All 4 models have been explained with the help of SHAP library.
-Temperature is the most important factor according to all the models.
+**Temperature** is the most important factor according to all the models.
